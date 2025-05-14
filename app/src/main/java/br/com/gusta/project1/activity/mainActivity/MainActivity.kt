@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-
             Scaffold(
                 containerColor = Color(0XFF101322),
                 bottomBar = { MainBottomBar() },
@@ -34,4 +33,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
